@@ -61,6 +61,11 @@ Train:
 
 Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data.
 
+## Dataset
+The folder data caontains the training and evaluating data.<br>
+test.txt is evaluating data and train.txt is training data.<br>
+The first column is the tag of the headline, 1 is clickbaits and 0 is non-clickbaits.<br>
+The second column is the type of the headline. 0 means News, 1: Blog, 2: BBS, 3: WeiXin.
 
 ## References
 
